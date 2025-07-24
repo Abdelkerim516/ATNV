@@ -74,7 +74,7 @@ const Features = () => {
               </button>
             </div>
           </div>
-          <div className="h-full md:order-first"> <img src={media} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center " /> </div>
+          <div className="h-full md:order-first"> <img src={media} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
         </div>
       </div>
       <div className="mt-6 border-t pt-12">
@@ -90,7 +90,7 @@ const Features = () => {
               </button>
             </div>
           </div>
-          <div className="h-full md:order-first"> <img src={couture} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center " /> </div>
+          <div className="h-full md:order-first"> <img src={couture} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
         </div>
       </div>
       {/*Sectioo*/}
