@@ -87,8 +87,8 @@ function Qui_somme_nous() {
             {[1, 2, 3].map((_, i) => {
               const team = [
                 { name: "Djakasnabeye Lembaindo", role: "Administrateur" },
-                { name: "Ido", role: "Gestionnaire" },
-                { name: "Bendji", role: "Technicien" },
+                { name: "Djimtobeye Iddo", role: "Gestionnaire" },
+                { name: "Ndoubaoudel mbaikari", role: "Technicien" },
               ];
               return (
                 <div key={i} className="bg-white rounded-lg shadow-md p-6 text-center">
