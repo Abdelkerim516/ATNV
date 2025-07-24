@@ -30,7 +30,7 @@ const Features = () => {
                       Les valeurs fondamentales qui guident l'ATNV sont la Paix, la Non-Violence, la Transformation Sociale, la Justice et la Solidarité.</p>
 
                   </div>
-                  <div className="h-full md:order-first"> <img src={hero} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center" /> </div>
+                  <div className="h-full md:order-first"> <img src={hero} alt="hero" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center" /> </div>
                 </div>
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center md:flex-row-reverse">
                   <div>
@@ -51,7 +51,7 @@ const Features = () => {
 
                     </div>
                   </div>
-                  <div className="h-full "> <img src={fea1} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center" /> </div>
+                  <div className="h-full "> <img src={fea1} alt="fea1" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center" /> </div>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ const Features = () => {
               </button>
             </div>
           </div>
-          <div className="h-full md:order-first"> <img src={media} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
+          <div className="h-full md:order-first"> <img src={media} alt="media" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
         </div>
       </div>
       <div className="mt-6 border-t pt-12">
@@ -90,10 +90,10 @@ const Features = () => {
               </button>
             </div>
           </div>
-          <div className="h-full md:order-first"> <img src={couture} alt="#_" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
+          <div className="h-full md:order-first"> <img src={couture} alt="couture" className=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-200 h-100 object-cover object-center " /> </div>
         </div>
       </div>
-      {/*Sectioo*/}
+     
       <section id="features" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Nos Actions et Programmes</h2>
@@ -125,7 +125,7 @@ const Features = () => {
 
           <div className="overflow-hidden relative">
             <div className="flex animate-slide space-x-12">
-              {/* Remplace les logos par les tiens dans /assets */}
+              
               <img src={part1} alt="Partenaire 1" className="h-50 w-auto" />
               <img src={part2} alt="Partenaire 2" className="h-50 w-auto" />
               <img src={part3} alt="Partenaire 3" className="h-50 w-auto" />

@@ -15,7 +15,7 @@ function Header() {
 
           <div
             className={`flex-col md:flex md:flex-row items-center w-full md:w-auto md:order-2 transition-all duration-300 ${nav
-              ? "absolute top-14 left-0 w-full bg-white shadow-md p-4 md:relative md:top-0 md:w-auto md:bg-transparent md:shadow-none"
+              ? "block w-full bg-white shadow-md p-4 md:relative md:w-auto md:bg-transparent md:shadow-none"
               : "hidden md:flex gap-6"
               }`}
           >
