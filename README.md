@@ -7,7 +7,7 @@ Ce projet est un site web professionnel développé pour **l’ATNV**, une organ
 ##  Aperçu du site
 
 ### Accueil
-![Accueil](../atnv/src/captures/atnv.png)
+![Accueil](./src//captures//atnv.png)
 
 
 
