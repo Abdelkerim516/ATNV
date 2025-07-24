@@ -135,7 +135,7 @@ Au-delà de l'apprentissage technique, cet atelier est un lieu d'échange, de so
     </div>
   </div>
 </section>
-<section className="bg-yellow-300 dark:bg-gray-900">
+<section className="bg-yellow-300 ">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md sm:text-center">
           <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">Abonnez-vous à notre newsletter</h2>
