@@ -1,32 +1,31 @@
 import { useState } from "react"
 import logo from "../assets/logo.gif"
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Header() {
-    const [nav, setNav] = useState(false)
-    return (
-      <header>
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 shadow">
+  const [nav, setNav] = useState(false)
+  return (
+    <header>
+      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5  shadow">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-lg">
           <Link to="/" className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              <img src={logo} alt="Logo"  className="w-30 h-30"/>
+            <span className="self-center text-xl font-semibold whitespace-nowrap ">
+              <img src={logo} alt="Logo" className="w-30 h-30" />
             </span>
           </Link>
 
           <div
-            className={`flex-col md:flex md:flex-row items-center w-full md:w-auto md:order-2 transition-all duration-300 ${
-              nav
-                ? "absolute top-14 left-0 w-full bg-white shadow-md p-4 md:relative md:top-0 md:w-auto md:bg-transparent md:shadow-none"
-                : "hidden md:flex gap-6"
-            }`}
+            className={`flex-col md:flex md:flex-row items-center w-full md:w-auto md:order-2 transition-all duration-300 ${nav
+              ? "absolute top-14 left-0 w-full bg-white shadow-md p-4 md:relative md:top-0 md:w-auto md:bg-transparent md:shadow-none"
+              : "hidden md:flex gap-6"
+              }`}
           >
             <ul className
 
-="flex flex-col md:flex-row md:gap-8 gap-0">
-   <li>
+              ="flex flex-col md:flex-row md:gap-8 gap-0">
+              <li>
                 <Link
                   to="/"
-                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
+                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:text-primary-700 md:p-0 "
                   aria-current="page"
                 >
                   Acceuil
@@ -35,7 +34,7 @@ function Header() {
               <li>
                 <Link
                   to="/Qui_Somme_nous"
-                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:text-primary-700 md:p-0 dark:text-white"
+                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:text-primary-700 md:p-0 "
                   aria-current="page"
                 >
                   Qui Somme-Nous ?
@@ -44,16 +43,16 @@ function Header() {
               <li>
                 <Link
                   to="/Que_faisons_nous"
-                  
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+
+                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0"
                 >
-                 Que faisons-nous ?
+                  Que faisons-nous ?
                 </Link>
               </li>
               <li>
                 <Link
                   to="/Nos_services"
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 "
                 >
                   Nos Services
                 </Link>
@@ -61,26 +60,26 @@ function Header() {
               <li>
                 <Link
                   to="/Contact"
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 md:p-0   "
                 >
                   Contact
                 </Link>
               </li>
             </ul>
             <Link to="/Faire_un_don" className="flex justify-center">
-            <button
-              className="mt-4 md:mt-0 rounded-full bg-yellow-500 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
-            >
-              FAITES UN DON
-            </button>
+              <button
+                className="mt-4 md:mt-0 rounded-full bg-yellow-500 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                type="button"
+              >
+                FAITES UN DON
+              </button>
             </Link>
           </div>
 
           <div className="md:hidden flex items-center lg:order-1">
             <button
               type="button"
-              className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  "
               aria-controls="mobile-menu"
               aria-expanded={nav}
               onClick={() => setNav(!nav)}
@@ -118,7 +117,7 @@ function Header() {
         </div>
       </nav>
     </header>
-    )
+  )
 }
 
 export default Header;
